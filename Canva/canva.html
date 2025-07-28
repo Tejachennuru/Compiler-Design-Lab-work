@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Whiteboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar for Boards -->
+        <div class="sidebar">
+            <h2>Boards</h2>
+            <button class="board-btn" data-board="board1">Board 1</button>
+            <button class="board-btn" data-board="board2">Board 2</button>
+            <button class="board-btn" data-board="board3">Board 3</button>
+        </div>
+
+        <!-- Whiteboard Area -->
+        <div class="whiteboard-container">
+            <div class="toolbar">
+                <button id="addSticky">Add Sticky Note</button>
+            </div>
+            <div class="whiteboard" id="board1">Board 1</div>
+            <div class="whiteboard hidden" id="board2">Board 2</div>
+            <div class="whiteboard hidden" id="board3">Board 3</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
